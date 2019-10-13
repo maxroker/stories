@@ -25,28 +25,27 @@ body {
 	width: 350px;
 }
 
-
-.collapse .col {
-
-	transition: width 3s ease;
-	/*transition: width 2s, height 2s, transform 2s;
-	transition-duration: 1s;
-	transition-timing-function: ease-out;*/
-}
-
-
-.collapse .col {
+.collapse .slide {
 	position: absolute;
 	top: 0;
 	height: 100vh;
+	width: 150px;
+	padding-left: 10px;
+	transition: width 0.3s ease-out;
+}
+
+.collapse .slide:hover {
 	width: 250px;
 }
+
+
 
 .navbar-toggler-icon {
 	color: white;
 	font-size: 40px;
 	background-color: #373A3D;
 	opacity: 0.9;
+	transition: 0.2s ease-out;
 }
 
 .navbar-toggler-icon:hover {
