@@ -1,0 +1,16 @@
+<section class="signup">
+	<div class="container-fluid">
+		<div class="row right">
+			<div class="col text-center my-auto">
+				<h1>Get the latest updates from Stories</h1>
+
+				<%= form_with scope: :signup, local: true do |form| %>
+					<%= form.text_field :firstname, :placeholder => "First name" %></br>
+					<%= form.email_field :email, :placeholder => "Email" %></br>
+					<%= form.submit "Sign Up", :class => "btn" %>
+				<% end %>
+			</div>
+		</div>
+	</div>
+</section>
+
