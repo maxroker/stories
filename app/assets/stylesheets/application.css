@@ -211,7 +211,10 @@ header .toggler-icon img:hover {
 	}
 
 	.about-main h1 {
-	margin: 10px;
-}
+		margin: 10px;
+	}
 
+	.btn {
+		font-size: 1.2em;
+	}
 }
