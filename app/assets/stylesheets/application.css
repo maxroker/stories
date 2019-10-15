@@ -19,13 +19,13 @@ body {
   height: 100vh; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  z-index: 2; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
   background-color: #343A40; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
 /* The navigation menu links */
@@ -36,6 +36,7 @@ body {
   color: white;
   display: block;
   transition: 0.3s;
+  z-index: 2;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -94,7 +95,7 @@ body {
 	background-image: url(https://images.unsplash.com/photo-1476360984161-bb1c3a581638?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
 	background-size: cover;
 	background-position: center;
-	height: 700px;
+	height: 70vh;
 }
 
 .container-fluid, .row {
@@ -102,14 +103,14 @@ body {
 }
 
 .suporting, .about {
-	height: 300px;
+	height: 30vh;
 }
 
 .secondary {
 	background-image: url(https://images.unsplash.com/photo-1476979877450-4037538c2749?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
 	background-size: cover;
 	background-position: center;
-	height: 700px;
+	height: 70vh;
 }
 
 
@@ -119,11 +120,11 @@ body {
 	/*background-image: url(https://images.unsplash.com/photo-1495756650324-e45118cb3e35);*/
 	background-size: cover;
 	background-position: center;
-	height: 700px;
+	height: 70vh;
 }
 
 .about-supporting {
-	height: 300px;
+	height: 30vh;
 }
 
 .about-main h1 {
@@ -142,7 +143,7 @@ body {
 	background-image: url(https://images.unsplash.com/photo-1521188453774-625d3fa52b67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
 	background-size: cover;
 	background-position: center;
-	height: 870px;
+	height: 90vh;
 }
 
 form input {
@@ -156,6 +157,7 @@ form input {
 form .btn {
 	width: auto;
 }
+
 
 /*   FOOTER   */
 
@@ -182,3 +184,14 @@ header .toggler-icon img:hover {
 	height: 72px;
 }
 
+
+/*   MEDIA    */
+
+@media screen and (max-width: 767px) {
+
+	.home .row, .about-main .row {
+		padding-top: 70%;
+		padding-bottom: 0;
+	}
+
+}
