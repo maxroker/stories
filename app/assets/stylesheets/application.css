@@ -188,6 +188,9 @@ header .toggler-icon img:hover {
 /*   MEDIA    */
 
 @media screen and (max-width: 767px) {
+	html {
+		font-size: 16px;
+	}
 
 	.home .row, .about-main .row {
 		padding-top: 70%;
