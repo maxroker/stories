@@ -207,6 +207,11 @@ header .toggler-icon img:hover {
 
 @media screen and (orientation: portrait) {
 	html {
-		font-size: 14px;
+		font-size: 12px;
 	}
+
+	.about-main h1 {
+	margin: 10px;
+}
+
 }
