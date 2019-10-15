@@ -200,7 +200,7 @@ header .toggler-icon img:hover {
 	}
 
 	.home .row, .about-main .row {
-		padding-top: 50vh;
+		padding-top: 40vh;
 		padding-bottom: 0;
 	}
 }
@@ -216,5 +216,6 @@ header .toggler-icon img:hover {
 
 	.btn {
 		font-size: 1.3em;
+		padding: 5px 25px 6px 25px;
 	}
 }
