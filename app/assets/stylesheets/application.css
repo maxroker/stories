@@ -203,5 +203,10 @@ header .toggler-icon img:hover {
 		padding-top: 50vh;
 		padding-bottom: 0;
 	}
+}
 
+@media screen and (orientation: portrait) {
+	html {
+		font-size: 16px;
+	}
 }
